@@ -24,7 +24,7 @@ function Search() {
         setEndDate(ranges.selection.endDate);
     }
   return (
-    <div className='search'>
+    <div className='date_picker'>
         <DateRangePicker ranges={[selectionRange]} onChange={handleSelect}/>
         <h2>Number of guests <EmojiPeopleIcon/></h2>
         <input min={0} defaultValue={2} type='number'/>
