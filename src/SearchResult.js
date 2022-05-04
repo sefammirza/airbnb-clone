@@ -28,7 +28,7 @@ function SearchResult({
         </div>
         <div className="search-result-infoBottom">
           <div className="search-result-stars">
-            {/* <StarIcon className="search-result-star" /> */}
+            <StarIcon className="search-result-star" />
             <p>
               <strong>{star}</strong>
             </p>

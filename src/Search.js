@@ -5,11 +5,12 @@ import 'react-date-range/dist/theme/default.css'
 import {DateRangePicker} from 'react-date-range';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import { Button } from '@mui/material';
+import { createBrowserHistory } from 'history';
 
 
 // Date picker components
 function Search() {
-
+    const history = createBrowserHistory()
     const [startDate, setStartDate] = useState(new Date())
     const [endDate, setEndDate] = useState(new Date());
 
@@ -28,7 +29,7 @@ function Search() {
         <DateRangePicker ranges={[selectionRange]} onChange={handleSelect}/>
         <h2>Number of guests <EmojiPeopleIcon/></h2>
         <input min={0} defaultValue={2} type='number'/>
-        <Button>Search Airbnb</Button>
+        <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
             </div>
   )
 }

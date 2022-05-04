@@ -2,9 +2,12 @@ import { Button } from '@mui/material'
 import React, { useState } from 'react'
 import './Banner.css'
 import Search from './Search'
+import { createBrowserHistory } from 'history';
+
 
 function Banner() {
 
+  const history = createBrowserHistory()
     const [showSearch, setShowSearch] = useState(false)
 
   return (
@@ -19,7 +22,7 @@ function Banner() {
 <div className='banner__info'>
     <h1>Get out and strecth your imagination</h1>
     <h5>Plan a different kinf of gataway to uncover the hidden gems near you</h5>
-    <Button variant='outlined'>Explore Nearby</Button>
+    <Button onClick={() => history.push('/search')} variant='outlined'>Explore Nearby</Button>
 </div>
 
     </div>

@@ -1,0 +1,21 @@
+[debug] [2022-05-04T21:01:11.789Z] ----------------------------------------------------------------------
+[debug] [2022-05-04T21:01:11.790Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-05-04T21:01:11.790Z] CLI Version:   10.6.0
+[debug] [2022-05-04T21:01:11.790Z] Platform:      darwin
+[debug] [2022-05-04T21:01:11.790Z] Node Version:  v17.9.0
+[debug] [2022-05-04T21:01:11.791Z] Time:          Wed May 04 2022 23:01:11 GMT+0200 (Central European Summer Time)
+[debug] [2022-05-04T21:01:11.791Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-04T21:01:11.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-04T21:01:11.793Z] > authorizing via signed-in user (sefammirza@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mirza/Desktop/github/airbnb-clone
+
